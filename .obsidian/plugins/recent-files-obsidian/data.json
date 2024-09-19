@@ -1,0 +1,23 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Portada",
+      "path": "Portada.md"
+    },
+    {
+      "basename": "Index",
+      "path": "content/Pure Data/Index.md"
+    },
+    {
+      "basename": "capítulo",
+      "path": "templates/capítulo.md"
+    },
+    {
+      "basename": "CODE_OF_CONDUCT",
+      "path": "CODE_OF_CONDUCT.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

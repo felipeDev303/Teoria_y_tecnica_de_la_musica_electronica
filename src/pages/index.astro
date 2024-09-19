@@ -1,16 +1,38 @@
 ---
-
+const str = "Bob"
+const num = 1
+const obj = {
+	name: str,
+	number: num,
+	favorites: ["astro", "css", "js"]
+}
+const isVisible = true;
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/Pure_Data_logo.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Pure Data</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>{str}</h1>
+		<h2>{obj.favorites[2].toUpperCase()}</h2>
+		{
+			isVisible
+			? <h2>{obj.favorites[1].toUpperCase()}</h2> // La logica dice que si isVisible es true, entonces se muestra este h2
+			: <h2>{obj.favorites[0].toUpperCase()}</h2>	 // La logica dice que si isVisible es false, entonces se muestra este h2
+		}
+		<!-- <h1>Teoría y técnica de la música electrónica</h1>-->
+		<p>REDACCIÓN: 30 de diciembre 2006 <br> Por Miller Puckette</p>
+
+		<p>Copyright ©2007 by World Scientic Publishing Co. Pte. Ltd. Todos los derechos reservados.<br>
+			
+			Traducido por Felipe Morales<br>
+			
+			Este es un humilde intento de traducir el libro guía de Pure Data escrito por Miller Pucktte,<br>
+			es un proyecto sin fines de lucro que solo busca crear contenido para la comunidad de Pure Data de habla hispana.</p>
 	</body>
 </html>

@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "SvBxCodeAlt",
+      "🖥",
+      "🖊",
+      "👨‍🔬",
+      "📁"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false,
+    "iconInTitlePosition": "above",
+    "lucideIconPackType": "native"
+  },
+  "00 Cerebro Digital": "🧠",
+  "01 Inbox": "📥",
+  "02 Habits": "🧗‍♂️",
+  "03 Polimatia": "🦓",
+  "04 Tasks": "✔",
+  "05 Projects": "⛰",
+  "06 Personal": "🧐",
+  "07 Archives": "📚",
+  "08 Templates": "📁",
+  "09 The Lab": "👨‍🔬",
+  "Excalidraw": "🖊",
+  "Trabajo": "🖥",
+  "Scripts": "SvBxCodeAlt"
+}
