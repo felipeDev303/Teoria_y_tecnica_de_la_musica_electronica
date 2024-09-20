@@ -1,5 +1,5 @@
 ---
-const { frontmatter } = Astro.props;
+const { title, description } = Astro.props;
 import NavBar from "@/components/NavBar.astro";
 ---
 
@@ -9,12 +9,13 @@ import NavBar from "@/components/NavBar.astro";
         <link rel="icon" type="image/svg+xml" href="/Pure_Data_logo.svg" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
-        <title>{frontmatter.title}</title>
-        <meta name="description" content={frontmatter.description} />
+        <title>{title}</title>
+        <meta name="description" content={description} />
         <link rel="stylesheet" href="/global.css" />
     </head>
 
     <body>
+        <NavBar/>
         <slot/>
     </body>
 </html>
