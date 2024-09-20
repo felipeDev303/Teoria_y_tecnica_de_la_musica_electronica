@@ -1,14 +1,6 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #1c1f2a;
-  color: #fff;
-}
-
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

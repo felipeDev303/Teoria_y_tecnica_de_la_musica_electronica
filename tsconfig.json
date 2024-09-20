@@ -1,3 +1,11 @@
 {
-  "extends": "astro/tsconfigs/base"
+  "extends": "astro/tsconfigs/base",
+
+  "compilerOptions": {
+    "baseUrl": ".", // Define la raíz del proyecto
+    "paths": {
+      "@/*": ["src/*"] // Define el alias para la carpeta src
+    },
+    "strict": true // Habilita el modo estricto en TypeScript
+  }
 }
