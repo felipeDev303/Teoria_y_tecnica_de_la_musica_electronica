@@ -11,12 +11,8 @@
             "id": "19c7a6188f83a264",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portada.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portada.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portada.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Portada.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,6 +172,17 @@
   },
   "active": "19c7a6188f83a264",
   "lastOpenFiles": [
+    "src/layouts/BookLayout.astro",
+    "src/layouts/bookLayout.astro",
+    "src/pages/puredata.astro",
+    "src/pages/puredata/puredata.astro",
+    "src/pages/puredata",
+    "Portada.md",
+    "src/pages/book/Portada.md",
+    "src/pages/book/Pure Data.md",
+    "src/pages/book/Borrador.md",
+    "src/pages/book/Índice.md",
+    "src/pages/book",
     "src/styles/global.css",
     "src/styles/index.css",
     "src/styles",
@@ -195,14 +198,7 @@
     "public/images/Aspose.Words.39de734b-8310-485c-b691-3f8d6b4844bd.550.png",
     "public/images/Aspose.Words.39de734b-8310-485c-b691-3f8d6b4844bd.549.png",
     "public/images",
-    "Teoría y técnica de la música electrónica/images",
-    "src/components/NavBar.astro",
-    "src/layouts/BaseLayout.astro",
-    "src/layouts/BaseLayouts.astro",
-    "src/layouts",
-    "src/components",
     "Pure Data.md",
-    "Portada.md",
     "README.md",
     "Índice.md",
     "Borrador.md"

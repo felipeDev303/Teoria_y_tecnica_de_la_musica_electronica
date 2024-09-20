@@ -1,15 +1,17 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro"
 import NavBar from "@/components/NavBar.astro"
+const { frontmatter } = Astro.props;
 ---
 
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/Pure_Data_logo.svg" />
+		<link rel="icon" type="image/svg+xml" href="public\Pure_Data_logo.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Pure Data</title>
+		<meta name="description" content={frontmatter.description} />
+		<title>{frontmatter.title}</title>
 	</head>
 	<body>
 	
@@ -28,9 +30,6 @@ import NavBar from "@/components/NavBar.astro"
 			
 			Este es un humilde intento de traducir el libro guía de Pure Data escrito por Miller Puckette,<br>
 			es un proyecto sin fines de lucro que solo busca crear contenido para la comunidad de Pure Data de habla hispana.<br>
-
-			Más información en: <a href="https://www.puredata.info/">https://www.puredata.info/</a>
-
 
 		</h3>
 		</BaseLayout>

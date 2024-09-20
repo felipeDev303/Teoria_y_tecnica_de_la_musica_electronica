@@ -1,0 +1,27 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro"
+import NavBar from "@/components/NavBar.astro"
+---
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="public\Pure_Data_logo.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Pure Data</title>
+</head>
+
+<body>
+	
+    <BaseLayout title="Pure Data" description="Visita el sitio web oficial de Pure Data">
+
+    <NavBar />
+    
+    <h1>Pure Data</h1>
+    <p>Visita el sitio oficial en: <a href="https://puredata.info/">Pure Data</a> 
+    </BaseLayout>
+    
+</body>
+
+</html>

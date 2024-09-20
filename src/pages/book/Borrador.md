@@ -1,9 +1,8 @@
 ---
-title: "<% tp.file.title %>"
-draft: true
-tags:
+layout: "@/layouts/BookLayout.astro"
+title: Borrador
+description: "Borrador de la traducción"
 ---
-# Índice 
 ## Contenidos 
 
 [[Prólogo]]. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .ix 
