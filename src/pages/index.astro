@@ -1,12 +1,6 @@
 ---
-const str = "Bob"
-const num = 1
-const obj = {
-	name: str,
-	number: num,
-	favorites: ["astro", "css", "js"]
-}
-const isVisible = true;
+import BaseLayout from "../layouts/BaseLayout.astro"
+import NavBar from "../components/NavBar.astro"
 ---
 
 <html lang="es">
@@ -18,13 +12,11 @@ const isVisible = true;
 		<title>Pure Data</title>
 	</head>
 	<body>
-		<h1>{str}</h1>
-		<h2>{obj.favorites[2].toUpperCase()}</h2>
-		{
-			isVisible
-			? <h2>{obj.favorites[1].toUpperCase()}</h2> // La logica dice que si isVisible es true, entonces se muestra este h2
-			: <h2>{obj.favorites[0].toUpperCase()}</h2>	 // La logica dice que si isVisible es false, entonces se muestra este h2
-		}
+	
+		<BaseLayout>
+			<NavBar />
+		</BaseLayout>
+		
 		<!-- <h1>Teoría y técnica de la música electrónica</h1>-->
 		<p>REDACCIÓN: 30 de diciembre 2006 <br> Por Miller Puckette</p>
 

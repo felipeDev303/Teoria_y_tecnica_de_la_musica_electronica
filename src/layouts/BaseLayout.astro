@@ -1,0 +1,26 @@
+---
+const { title, description } = Astro.props;
+import NavBar from "../components/NavBar.astro";
+---
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/Pure_Data_logo.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="stylesheet" href="/global.css" />
+    </head>
+
+    <body>
+        <BaseLayout>
+            <NavBar />
+        </BaseLayout>
+
+        <footer>
+            <p>© 2021 Pure Data</p>
+        </footer>
+    </body>
+</html>
