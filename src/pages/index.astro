@@ -15,20 +15,30 @@ const { title, description } = Astro.props;
 	<body>
 	
 		<BaseLayout title="Página Principal" description="Página principal del sitio web Pure Data en español">
+			<div class="text-center max-w-4xl mx-auto p-8">
 		
-	    <h1>Teoría y técnica de la música electrónica</h1>
-		<h2>Por Miller Puckette</h2>
+				<!-- Contenedor para los encabezados principales -->
+				<div class="my-8">
+					<h1 class="text-7xl font-extrabold">Teoría y técnica de la música electrónica</h1>
+					<h2 class="text-5xl font-bold mt-6">Por Miller Puckette</h2>
+				</div>
 
-		<h3>REDACCIÓN: 30 de diciembre 2006 </h3>
+				<!-- Contenedor para los metadatos del libro -->
+				<div class="text-xl font-medium my-16">
+					<h3>REDACCIÓN: 30 de diciembre 2006</h3>
+					<h3>Copyright ©2007 por World Scientic Publishing Co. Pte. Ltd.</h3>
+					<h3>Todos los derechos reservados.</h3>
+					
+				</div>
+					
+				<!-- Contenedor para el párrafo principal -->
+				<div class="text-m font-medium leading-relaxed mt-16">
+					<p>
+						"Este es un humilde intento de traducir el libro guía de Pure Data escrito por Miller Puckette, un proyecto sin fines de lucro que solo busca crear contenido para la comunidad de Pure Data de habla hispana."</p>
+					<p class="mt-4">Traducido al español por Felipe Morales</p>
+				</div>
+		    </div> <!-- Fin del contenedor principal -->
 
-		<h3>Copyright ©2007 by World Scientic Publishing Co. Pte. Ltd. Todos los derechos reservados.<br>
-			
-		<h4>Traducido al español por Felipe Morales</h4>
-			
-			Este es un humilde intento de traducir el libro guía de Pure Data escrito por Miller Puckette,<br>
-			es un proyecto sin fines de lucro que solo busca crear contenido para la comunidad de Pure Data de habla hispana.<br>
-
-		</h3>
 		</BaseLayout>
 		
 	</body>
