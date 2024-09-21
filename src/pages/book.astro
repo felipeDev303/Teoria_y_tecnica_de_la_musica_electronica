@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro"
 const { title, description } = Astro.props;
+const bookList = await Astro.glob("../pages/book/*.md");
 ---
 <html>
 
@@ -15,16 +16,20 @@ const { title, description } = Astro.props;
 
 <body>
 	
-    <BaseLayout title="Pure Data" description="Visita el sitio web oficial de Pure Data">
+    <BaseLayout title="Teoría y técnica de la música electrónica" description="Libro de Miller Puckette traducido al español por Felipe Morales">
         <div class="text-center max-w-4xl mx-auto p-8">
             <div class="my-8">
-                <h1 class="text-7xl font-extrabold">Pure Data</h1>
+                <h1 class="text-7xl font-extrabold">Teoría y técnica de la música electrónica</h1>
             </div>
+        </div>
 
-            <div class="text-xl font-medium my-16">
-            <p>Visita el sitio oficial en: <a href="https://puredata.info/">Pure Data</a> 
-            </p>
-            </div>
+        <div>
+            <ul>
+                {bookList.map((book) => (
+                    <li>
+                        <a href={book.url}>{book.frontmatter.title}</a>
+                    </li>   
+                ))}
         </div>
     </BaseLayout>
     

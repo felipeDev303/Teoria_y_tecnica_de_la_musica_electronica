@@ -1,21 +1,13 @@
 ---
-const { title, description } = Astro.props;
-import NavBar from "@/components/NavBar.astro";
+import BaseLayout from "./BaseLayout.astro";
+const {frontmatter} = Astro.props;
 ---
 
-<html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/Pure_Data_logo.svg" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <link rel="stylesheet" href="/global.css" />
-    </head>
-
-    <body>
-        <NavBar/>
+<BaseLayout pageTitle={frontmatter.title}>
+    <div class="text-center max-w-4xl mx-auto p-8">
+        <p class="title">{frontmatter.title}</p>
         <slot/>
-    </body>
-</html>
+    </div>
+<p></p>
+<p></p>
+</BaseLayout>

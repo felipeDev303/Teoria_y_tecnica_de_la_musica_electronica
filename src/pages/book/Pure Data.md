@@ -1,5 +1,5 @@
 ---
-layout: "@/layouts/BookLayout.astro"
+layout: ../../layouts/BookLayout.astro
 title: Pure Data
 description: "¿Qué es Pure Data?"
 ---
